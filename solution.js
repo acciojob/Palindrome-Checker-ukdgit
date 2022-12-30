@@ -1,7 +1,4 @@
-// complete the given function
-
-function palindrome(str){
-  const palindromeChecker = (str) => {
+const palindromeChecker = (str) => {
   let temp = "";
   str = str.toLowerCase();
   for (let i = 0; i < str.length; i++) {
@@ -11,6 +8,6 @@ function palindrome(str){
     if (temp[i] != temp[temp.length - 1 - i]) return false;
   }
   return true;
-  };
-}
-module.exports = palindrome
+};
+
+module.exports = palindromeChecker;
