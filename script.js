@@ -11,3 +11,4 @@ const palindromeChecker = (str) => {
 };
 
 module.exports = palindromeChecker;
+
